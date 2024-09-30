@@ -1,0 +1,34 @@
+.container{
+    background-color: darkgray;
+    height: 700px;
+    width: 900px;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 12px;
+
+}
+
+.item{
+    background-color:cornflowerblue;
+
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.item3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
