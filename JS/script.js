@@ -11,18 +11,60 @@
     document.getElementById("para").textContent = "Have a Good Morning"
 */
 
-let price = 10.99;
-let age;
-age = 41;
-let favfood = "Momos"
+/* 2. Variables 
+    let price = 10.99;
+    let age;
+    age = 41;
+    let favfood = "Momos"
 
 
-console.log(`You are ${age} years old`);
-console.log(`Price is  ${price} rupees`);
-console.log(typeof favfood)
+    console.log(`You are ${age} years old`);
+    console.log(`Price is  ${price} rupees`);
+    console.log(typeof favfood)
 
-let online = true;
-let forSale = false;
+    let online = true;
+    let forSale = false;
 
-console.log(`Bro is online:${online}`);
-console.log(`Is this car for sale:${forSale}`);
+    console.log(`Bro is online:${online}`);
+    console.log(`Is this car for sale:${forSale}`);
+*/
+
+/* 3. Arithematic operators
+
+    let students = 30;
+
+    // students += 1;
+    // students -= 1;
+    // students %= 2;
+
+
+    ===============order for arithmatic operators================
+    1. parenthesis
+    2.exponents
+    3.multiplication & division & modulus
+    4.add and subtraction
+
+    console.log(students);*/
+
+    //4. Using the submit button to change certain text
+
+    /*document.getElementById("sub").onclick = function(){
+        username = document.getElementById("textbox").value;
+        document.getElementById("head1").textContent = `Welcome ${username}`
+    }
+    */
+
+    // 5. type conversion
+
+    /*let x = "20";
+    let y = "he";
+    let z = "sow";
+ 
+    x = Number(x);
+    y = String(y);
+    z = Boolean(z);
+
+    console.log(x, typeof x);
+    console.log(y, typeof y);
+    console.log(z, typeof z);
+    */

@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+}
+
+label{
+    font-size: 100px;
+    position: relative;
+
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(222, 184, 135, 0.253);
+    cursor: pointer;
+}
+
+.bigbox{
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20%;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
