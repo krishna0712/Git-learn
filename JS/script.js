@@ -68,3 +68,24 @@
     console.log(y, typeof y);
     console.log(z, typeof z);
     */
+
+    // *********PROJECT1 DONE***************
+
+    /*
+    // 6.math module
+    let x = 30;
+    let y = 2;
+    // let z;
+
+    // z = Math.sqrt(x);
+    // z = Math.pow(x, y);
+    z = Math.sin(x)
+
+    console.log(z);
+    */
+
+    // const min = 1;
+    // const max = 5;
+    // let randomNum = Math.floor(Math.random()*(max-min)) + min;
+
+    // console.log(randomNum);
