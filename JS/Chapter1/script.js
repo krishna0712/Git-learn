@@ -72,7 +72,7 @@
     // *********PROJECT1 DONE***************
 
     /*
-    // 6.math module
+    // 6.=====math module========
     let x = 30;
     let y = 2;
     // let z;

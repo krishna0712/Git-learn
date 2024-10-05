@@ -1,4 +1,4 @@
-// IF statements
+// 7. IF statements
 
 // let age = 14;
 
@@ -55,32 +55,14 @@
     }
 */
 
-const box1 = document.getElementById("box1");
-const visabtn = document.getElementById("visabtn");
-const mastercardbtn = document.getElementById("mastercardbtn");
-const paytmbtn = document.getElementById("paytmbtn");
+// --------8. Ternary Operator---------
+// ternary operator = a shortcut to if else statements helps to assign a vairable 
+// syntax: condition ? codeIfTrue: codeIfFalse;
 
-document.getElementById("mysub").onclick = function(){
-    if(box1.checked){
-        checkresult.textContent = `You are subscribed`;
-        if(visabtn.checked){
-            radioresult.textContent = `You are paying with a visa`;
-        }
-        else if(mastercardbtn.checked){
-            radioresult.textContent =`You are paying with a mastercard`; 
-        }
-        else if(paytmbtn.checked){
-            radioresult.textContent =`You are paying with Paytm`; 
-        }
-        else{
-            radioresult.textContent =`You have not chosen your method of payment`;
-        }
-    }
-    else{
-        checkresult.textContent = `You are not subscribed`;
-    }
+// let time = 9;
+// let greetings = time <12 ? "Good Morning" : "Good Afternoon";
 
-    
-}
+let amount = 1200;
+let discount = amount > 1000 ? 10 : 0;
 
-
+console.log(`Your total amout is $${amount - amount*(discount/100)}`)
