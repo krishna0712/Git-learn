@@ -116,7 +116,6 @@
     // }
 */
 
-
 /*--------- 10. String Methods-----------
     
     // let userName = "Krishna";
@@ -166,7 +165,7 @@
 // console.log(username); 
 */
 
-
+/*--------11. Functions---------------
 // function = A sectio of reusable code. 
 //            Declare code once, use it whenever you want.
 //            call the function to execute the code.
@@ -180,12 +179,14 @@
 //     let result = x-y;
 //     return result;
 // }
-function isEven(number){
-    return number %2 === 0 ? true: false ;
-}
+// function isEven(number){
+//     return number %2 === 0 ? true: false ;
+// }
 
-console.log(isEven(45));
+// console.log(isEven(45));
 // let answer = add(2,3);
 // let ans = sub(3,2);
 // console.log(answer);
 // console.log(ans);
+*/
+
