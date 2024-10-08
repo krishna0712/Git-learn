@@ -156,11 +156,36 @@
 
     // console.log(firstName);
     // console.log(lastName);
+
+// let username = window.prompt("Enter your Username: ");
+
+//  ----Method Chaining-----
+// ( using many methods at the same time is method chaining)
+
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+// console.log(username); 
 */
 
-let username = window.prompt("Enter your Username: ");
 
-// ----Method Chaining-----
+// function = A sectio of reusable code. 
+//            Declare code once, use it whenever you want.
+//            call the function to execute the code.
 
-username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
-console.log(username); 
+// function add(x,y){
+//     let result = x +y;
+//     return result; // can also directly return x+y
+// }
+
+// function sub(x,y){
+//     let result = x-y;
+//     return result;
+// }
+function isEven(number){
+    return number %2 === 0 ? true: false ;
+}
+
+console.log(isEven(45));
+// let answer = add(2,3);
+// let ans = sub(3,2);
+// console.log(answer);
+// console.log(ans);
